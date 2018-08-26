@@ -1,0 +1,5 @@
+{
+    "port": "8888",
+    "mongoURI": "mongodb://alexBliznec:zapomnil1@ds125372.mlab.com:25372/mynewapp",
+    "jwt": "jwt-secret-key"
+}
