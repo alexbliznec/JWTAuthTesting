@@ -1,0 +1,15 @@
+doctype
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        link(rel='stylesheet', href='../public/style.css')
+    body
+        span.game-title#message Ходит Игрок Х
+        
+        .game
+            - for (let i = 1; i < 10; i++) {
+                .game-item(data-ceil = i)
+            - }
+
+        button#reset-game Очистить 
+
